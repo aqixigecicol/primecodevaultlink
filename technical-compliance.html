@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Technical Compliance Guide — 2026 Edition | primecodevaultlink</title>
+<meta name="description" content="The 2026 Technical Compliance Guide for primecodevaultlink iOS and Android applications. Covers Apple App Store privacy labels, ATT framework, Google Play data safety, SDK transparency, Android 15 / iOS 18, regional data sovereignty, and risk-control standards.">
+<meta name="keywords" content="technical compliance, Apple App Store compliance 2026, Google Play data safety 2026, ATT framework, Privacy Sandbox, SKAdNetwork 5, iOS 18 privacy, Android 15 privacy, SDK transparency, data sovereignty 2026, region compliance, AppLovin MAX SDK, Google AdMob SDK, ad mediation compliance">
+<meta name="author" content="primecodevaultlink">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://primecodevaultlink.com/technical-compliance.html">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="apple-touch-icon" href="images/favicon.svg">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="primecodevaultlink">
+<meta property="og:title" content="Technical Compliance Guide — 2026 Edition">
+<meta property="og:description" content="Apple · Google · Regional data sovereignty · SDK transparency.">
+<meta property="og:url" content="https://primecodevaultlink.com/technical-compliance.html">
+<meta property="og:image" content="images/og-image.svg">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Technical Compliance Guide — 2026 Edition">
+<meta name="twitter:description" content="Apple · Google · Regional data sovereignty · SDK transparency.">
+<meta name="twitter:image" content="images/og-image.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "name": "primecodevaultlink Technical Compliance Guide — 2026 Edition",
+  "url": "https://primecodevaultlink.com/technical-compliance.html",
+  "dateModified": "2026-06-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "primecodevaultlink",
+    "url": "https://primecodevaultlink.com"
+  }
+}
+</script>
+</head>
+<body>
+
+<div class="loading-screen">
+  <div class="loading-logo">
+    <svg viewBox="0 0 64 64" fill="none">
+      <defs><linearGradient id="loadG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00d4ff"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#e82127"/></linearGradient></defs>
+      <circle cx="32" cy="32" r="28" stroke="url(#loadG)" stroke-width="3" stroke-dasharray="40 130" stroke-linecap="round"/>
+    </svg>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <svg viewBox="0 0 64 64" fill="none">
+        <defs><linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient></defs>
+        <circle cx="32" cy="32" r="28" stroke="url(#lg1)" stroke-width="2.5" opacity="0.3"/>
+        <path d="M32 8L52 20L52 44L32 56L12 44L12 20L32 8Z" stroke="url(#lg1)" stroke-width="2.5" stroke-linejoin="round"/>
+        <path d="M24 22H34C38 22 41 25 41 29C41 33 38 36 34 36H30V42H24V22ZM30 27V31H34C35.5 31 36 30 36 29C36 28 35.5 27 34 27H30Z" fill="url(#lg1)"/>
+      </svg>
+      <span>primecodevaultlink</span>
+    </a>
+    <nav><ul class="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="advantages.html">Advantages</a></li>
+      <li><a href="updates.html">Updates</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+    <a href="contact.html" class="nav-cta magnetic">Start a Project <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    <button class="mobile-toggle" aria-label="Toggle menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+  </div>
+</header>
+
+<div class="mobile-overlay"></div>
+<aside class="mobile-menu">
+  <button class="mobile-menu-close" aria-label="Close menu"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="advantages.html">Advantages</a></li>
+    <li><a href="updates.html">Updates</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+    <li><a href="terms-of-service.html">Terms of Service</a></li>
+    <li><a href="technical-compliance.html">Technical Compliance</a></li>
+  </ul>
+</aside>
+
+<section class="policy-hero" style="position: relative; overflow: hidden;">
+  <div class="hero-bg-grid" style="position: absolute; inset: 0;"></div>
+  <img src="images/hero-compliance.png" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.35;">
+  <div style="position: relative; z-index: 1;">
+    <span class="policy-meta">Effective Date: 1 June 2026 · Version 2026.1 · Mandatory Reading</span>
+    <h1>Technical Compliance Guide</h1>
+    <p class="section-subtitle" style="max-width: 820px; margin: 24px auto 0;">The 2026 edition. Built for primecodevaultlink iOS, iPadOS, Android, and web applications. Covers Apple App Store 2026 requirements (Privacy Labels, ATT 2.0, iOS 18), Google Play 2026 requirements (Data Safety, SDK Transparency, Android 15 Privacy Sandbox), regional data sovereignty, and risk-control standards.</p>
+  </div>
+</section>
+
+<main class="policy-content">
+
+  <div class="toc">
+    <h2>Table of Contents</h2>
+    <ol class="toc-list">
+      <li><a href="#scope-tc">1. Scope</a></li>
+      <li><a href="#apple">2. Apple App Store (iOS / iPadOS) 2026</a></li>
+      <li><a href="#google">3. Google Play (Android) 2026</a></li>
+      <li><a href="#data-residency">4. 2026 Data Residency &amp; Sovereignty</a></li>
+      <li><a href="#interaction">5. Interaction-Design Compliance</a></li>
+      <li><a href="#sdk">6. SDK Inventory &amp; Transparency</a></li>
+      <li><a href="#risk">7. Risk Control &amp; Periodic Review</a></li>
+      <li><a href="#contact-tc">8. Contact</a></li>
+    </ol>
+  </div>
+
+  <section class="policy-section" id="scope-tc">
+    <h2>1. Scope</h2>
+    <p>This Technical Compliance Guide is mandatory reading for any engineer, designer, product manager, or partner who ships a build under the primecodevaultlink publisher account. It defines the technical execution standards that ensure full compliance with the Apple App Store 2026 review guidelines, Google Play 2026 policies, the EU Digital Services Act (DSA), the EU AI Act, and regional data-residency rules.</p>
+    <p>Failure to comply with this Guide may result in app rejection, removal from the store, account suspension, or regulatory enforcement. Material deviation must be documented in writing and approved by primecodevaultlink's compliance lead.</p>
+  </section>
+
+  <section class="policy-section" id="apple">
+    <h2>2. Apple App Store (iOS / iPadOS) 2026 Requirements</h2>
+
+    <h3>2.1 Privacy Labels (App Privacy Section)</h3>
+    <p>Every App published by primecodevaultlink must declare its privacy practices accurately in App Store Connect under "App Privacy". In particular, since IDFA, purchase records, and similar signals are linked to the user:</p>
+    <ul>
+      <li>The box "<strong>Data Linked to User</strong>" must be checked for any data category that is associated with the user, the device, or the account.</li>
+      <li>The data categories (Contact Info, Financial Info, Health &amp; Fitness, Identifiers, Usage Data &amp; Diagnostics, etc.) must be completed exhaustively.</li>
+      <li>Each declared purpose must match the actual SDK usage. Misdeclaration is grounds for rejection and removal.</li>
+    </ul>
+
+    <h3>2.2 ATT (App Tracking Transparency) 2026 — Mandatory Execution</h3>
+    <p>Per Apple's 2026 App Tracking Transparency framework:</p>
+    <ul>
+      <li>Before any access to the device's <code>device_id</code> (i.e. IDFA), the App must call <code>requestTrackingAuthorization</code> and present the system ATT prompt. The prompt text must clearly explain the purpose of the request (e.g. "to personalise the ads you see and to measure their effectiveness"). Misleading copy is grounds for rejection.</li>
+      <li>If the user <strong>denies</strong> tracking authorisation, the App must pass <code>allow_tracking = false</code> to every third-party SDK that participates in the bid stream. The App must not use any other device identifier (e.g. MAC address, randomised fingerprint) as an IDFA substitute to circumvent the user's choice.</li>
+      <li>Per iOS 18, the ATT prompt may be shown <strong>at most once per app lifetime</strong>. Re-prompting the user is prohibited. If the user denies, the App must not re-request; the user can re-enable only through the device's system settings.</li>
+      <li>The App must not implement any "soft prompt" or pre-prompt flow that conditions the user to tap "Allow". Such flows are explicitly prohibited by Apple.</li>
+    </ul>
+
+    <h3>2.3 iOS 18 — Sensitive Data Access</h3>
+    <p>For each sensitive iOS API (PhotoKit, Contacts, Calendar, Microphone, Camera, Location, HealthKit, Motion, etc.):</p>
+    <ul>
+      <li>Request authorisation only when the feature is actually invoked (no up-front mass request).</li>
+      <li>Per-use authorisation is preferred where the API supports it (e.g. PhotoKit limited-library access).</li>
+      <li>Display a custom in-app rationale before invoking <code>requestAccess</code>, describing why the permission is needed and what will happen if it is denied.</li>
+      <li>Never default-enable a permission via a misleading toggle or hidden switch.</li>
+    </ul>
+
+    <h3>2.4 IAP &amp; Subscription Display</h3>
+    <ul>
+      <li>All IAP items must display their price, billing period (for subscriptions), and renewal terms clearly. The display must use the system localisation for currency.</li>
+      <li>No "dark patterns" — no pre-checked auto-renew opt-in, no obscured unsubscribe flow, no countdown pressure that is not grounded in a real deadline.</li>
+      <li>Where a free trial is offered, the trial length, the post-trial price, and the renewal cycle must be displayed in the same view as the "Subscribe" button.</li>
+      <li>Where the App uses StoreKit 2, the App must implement <code>Product.PurchaseResult</code> correctly and never assume a successful purchase without a verified transaction in <code>Transaction.currentEntitlements</code>.</li>
+    </ul>
+
+    <h3>2.5 Other Apple Requirements</h3>
+    <ul>
+      <li>The App must not contain hidden features, undocumented code paths, or stealth SDK calls.</li>
+      <li>The App must not bypass App Store review (e.g. by changing feature behaviour after review).</li>
+      <li>AI-generated content (if any) must be labelled per Apple's guidelines and disclosed on the product page.</li>
+      <li>App must support 64-bit, must declare its privacy manifest, must list its required reason APIs in the privacy manifest, and must support iOS 18 by the 2026 deadline.</li>
+    </ul>
+  </section>
+
+  <section class="policy-section" id="google">
+    <h2>3. Google Play (Android) 2026 Requirements</h2>
+
+    <h3>3.1 Data Safety Form</h3>
+    <p>Every App must accurately complete the Google Play Console "Data Safety" form. In particular:</p>
+    <ul>
+      <li>Data in transit must be declared as <strong>encrypted (HTTPS / TLS 1.3)</strong>.</li>
+      <li>Data at rest must be declared as <strong>encrypted (AES-256)</strong>.</li>
+      <li>All data categories collected, all purposes, and all third-party SDKs that receive data must be declared.</li>
+      <li>Misdeclaration is grounds for rejection or removal.</li>
+    </ul>
+
+    <h3>3.2 SDK Transparency &amp; Privacy Sandbox (2026)</h3>
+    <p>Per Google Play's 2026 SDK transparency requirements:</p>
+    <ul>
+      <li>Developers are <strong>fully responsible</strong> for the behaviour of every third-party SDK embedded in the App. We only use SDK versions that support Android 14+ Privacy Sandbox.</li>
+      <li>The list of integrated third-party SDKs must be published in the Play Console, with name, purpose, and data-collection scope per SDK.</li>
+      <li>If any SDK is found to be in violation of Google's policies, the SDK is removed immediately and the App is rebuilt without it.</li>
+      <li>Where a SDK requests a permission unrelated to its declared purpose, the SDK is rejected during code review.</li>
+    </ul>
+
+    <h3>3.3 Android 15 — Privacy Sandbox &amp; Private Space</h3>
+    <ul>
+      <li>The App must support the Android 15 <strong>Privacy Sandbox</strong>: Topics API for cohort-based ad relevance, Protected App Signals for app-defined signals, and Attribution Reporting for ad measurement.</li>
+      <li>Where a user installs the App in <strong>Private Space</strong> (a sandboxed profile for sensitive apps), the App must declare the appropriate behaviour. Medical, financial, and identity-sensitive apps must explicitly tell the user not to install in Private Space. Launcher apps must declare related permissions and adapt to Private Space app visibility rules.</li>
+      <li>The App must support the Android 15 <strong>OTP hiding</strong> feature: any OTP field displayed while screen sharing / casting is automatically hidden, with a status-bar indicator visible to the user.</li>
+      <li>The App must support the Android 15 <strong>partial screenshot / partial screen share</strong> flow and adapt sensitive UI accordingly.</li>
+    </ul>
+
+    <h3>3.4 Google Play Billing 2026</h3>
+    <ul>
+      <li>All IAP must use Google Play Billing 7.0+ (or the current major version as required by Google). Third-party payment methods are not permitted for digital goods.</li>
+      <li>Subscription terms must be visible before purchase. The user must be able to manage the subscription from the App and from Google Play Subscriptions.</li>
+      <li>The App must implement <code>AcknowledgePurchase</code> for all non-consumable purchases within the required window (3 days). Unacknowledged purchases are refunded automatically.</li>
+    </ul>
+
+    <h3>3.5 64-bit &amp; SDK Hygiene</h3>
+    <ul>
+      <li>App must ship 64-bit (arm64-v8a, x86_64). 32-bit-only is no longer accepted on Google Play.</li>
+      <li>All embedded SDKs must be on the latest stable version with no known security advisories.</li>
+      <li>The App must not bundle ad SDKs that do not respect the Google Play Ads policy (e.g. full-screen interstitials immediately on app launch, accidental clicks, etc.).</li>
+    </ul>
+  </section>
+
+  <section class="policy-section" id="data-residency">
+    <h2>4. 2026 Data Residency &amp; Sovereignty</h2>
+    <p>With global data-sovereignty expectations rising sharply in 2026, the following rules apply to any data we store, process, or transfer on behalf of our users.</p>
+
+    <h3>4.1 Localisation Threshold</h3>
+    <p>Where an App has a significant user base in a country / region with a data-localisation law (including the EU, UK, China, India, Saudi Arabia, Brazil, Canada, Russia, Indonesia, Nigeria, Turkey, and any country that has enacted a new localisation law since 2024), the relevant user data is stored on servers within that jurisdiction. The threshold follows the local law; where no threshold is defined, the default is 10,000 active monthly users.</p>
+
+    <h3>4.2 Cross-Border Transfer — Required Approvals</h3>
+    <table class="policy-table">
+      <thead><tr><th>Region</th><th>Required Mechanism</th></tr></thead>
+      <tbody>
+        <tr><td>EU</td><td>GDPR Adequacy Decision OR EU SCCs OR BCRs (for repeat transfers)</td></tr>
+        <tr><td>UK</td><td>UK Adequacy OR UK IDTA OR UK Addendum to the EU SCCs</td></tr>
+        <tr><td>China</td><td>CAC Security Assessment OR CAC Standard Contract OR Certification</td></tr>
+        <tr><td>India</td><td>MeitY approval (restricted categories) OR Contract + government notification</td></tr>
+        <tr><td>Saudi Arabia</td><td>NDPA authorisation</td></tr>
+        <tr><td>Brazil</td><td>ANPD-approved standard clauses OR ANPD adequacy decision</td></tr>
+        <tr><td>Russia</td><td>Roskomnadzad localisation (data of Russian citizens on RU servers)</td></tr>
+        <tr><td>Canada</td><td>PIPEDA-compliant contract; for Quebec Law 25, additional cross-border impact assessment</td></tr>
+        <tr><td>USA (federal trade)</td><td>Compliance with applicable state laws (CCPA/CPRA, VCDPA, etc.)</td></tr>
+        <tr><td>APEC</td><td>CBPR certification where available; PRPR for cross-border transfer to non-participating economies</td></tr>
+      </tbody>
+    </table>
+
+    <h3>4.3 U.S. Cloud Act Considerations</h3>
+    <p>Where an App serves U.S. users and the U.S. Cloud Act may apply, we cooperate with lawful U.S. government data-access requests. We challenge over-broad requests through judicial process where appropriate. Users are notified of any government request to the extent permitted by law.</p>
+
+    <h3>4.4 2026 New-Requirement Watchlist</h3>
+    <p>Several jurisdictions enacted or amended data-localisation rules effective 2026. We track and adapt to:</p>
+    <ul>
+      <li><strong>Canada:</strong> Quebec Law 25 enforcement — biometric and sensitive-data protections.</li>
+      <li><strong>Japan:</strong> APPI 2022 amendment — expanded extraterritorial scope and breach notification.</li>
+      <li><strong>Bolivia, Colombia, Chile:</strong> emerging data-protection regimes.</li>
+      <li><strong>Indonesia, Nigeria, Turkey:</strong> data-localisation rules for digital-payment and certain e-commerce flows.</li>
+      <li><strong>U.S. state-level laws:</strong> 14 states with comprehensive privacy laws now in force as of 2026.</li>
+    </ul>
+
+    <h3>4.5 Internal Data-Residency Ledger</h3>
+    <p>We maintain an internal <strong>data-residency ledger</strong> that records, for each user record: the storage region, the data controller, the data processor, the legal basis for any cross-border transfer, and the date of last verification. The ledger is reviewed quarterly and audited annually by an independent third party.</p>
+  </section>
+
+  <section class="policy-section" id="interaction">
+    <h2>5. Interaction-Design Compliance</h2>
+
+    <h3>5.1 Double-Confirmation for Large IAP</h3>
+    <p>For any IAP purchase with a single-transaction value at or above USD / EUR 50 (or the regional equivalent), the App must present an in-app second confirmation modal before launching the platform payment sheet. The modal must state:</p>
+    <ul>
+      <li>The exact amount to be charged.</li>
+      <li>The product or subscription being purchased.</li>
+      <li>The payment method to be used.</li>
+      <li>A clear "Confirm" CTA that the user must tap to proceed.</li>
+    </ul>
+    <p>For auto-renewable subscriptions, a second confirmation is mandatory for all price tiers, stating the period, the price, and the renewal rule.</p>
+
+    <h3>5.2 Privacy Policy Visibility (Mandatory Placement)</h3>
+    <p>The link to this Privacy Policy must be present in <strong>at least three locations</strong>:</p>
+    <ol>
+      <li>The App Store / Google Play product page (a clearly visible link in the description).</li>
+      <li>The App's first-launch screen (or login screen) — a clearly tappable link, with "Accept" / "Decline" buttons. A "Decline" must prevent the App from proceeding.</li>
+      <li>The App's "Settings" or "About" menu — a clearly tappable link that opens the full Privacy Policy in-app or in the browser.</li>
+    </ol>
+
+    <h3>5.3 Permission Requests</h3>
+    <p>Each permission request must be preceded by a custom in-app rationale that explains the purpose, what happens if the user denies, and how to enable the permission later in system settings. Bulk permission requests at first launch are not permitted.</p>
+
+    <h3>5.4 Ad-Format Disclosure</h3>
+    <ul>
+      <li>Rewarded video: a clear "Watch the full ad to earn X" copy; a "Skip" button must appear after 5 seconds.</li>
+      <li>Interstitial: a visible "Ad" badge; a close button visible from the start.</li>
+      <li>Banner: a "Why this ad?" link is recommended.</li>
+      <li>All personalised ads must be served only after explicit consent.</li>
+    </ul>
+
+    <h3>5.5 Complaint &amp; Feedback Channel</h3>
+    <p>The App must provide an in-app feedback channel for privacy complaints, ad complaints, UGC complaints, and general feedback. The complaint handling SLA is <strong>7 business days</strong>, with a confirmation of receipt within 48 hours.</p>
+
+    <h3>5.6 DSA Transparency Display</h3>
+    <p>For any App with personalised ads or algorithmic recommendation, the App must display, in an easily discoverable location:</p>
+    <ul>
+      <li>The main parameters used for ad targeting.</li>
+      <li>The user-facing logic of any recommendation system.</li>
+      <li>A simplified diagram of the data flow.</li>
+    </ul>
+
+    <h3>5.7 Screen-Share Indicator (Android 15+)</h3>
+    <p>Where the App runs on Android 15 or later, the system-managed screen-share indicator is honoured. The App may additionally display its own indicator for sensitive screens (e.g. payment, login, personal data).</p>
+  </section>
+
+  <section class="policy-section" id="sdk">
+    <h2>6. SDK Inventory &amp; Transparency</h2>
+    <p>The full SDK inventory across the primecodevaultlink app matrix is listed below. Each SDK is on a signed Data Processing Agreement, has a current compliance audit, and is on a supported version.</p>
+
+    <h3>6.1 Ad Mediation SDKs</h3>
+    <table class="policy-table">
+      <thead><tr><th>SDK</th><th>Purpose</th><th>Latest Supported Version</th><th>Data Scope</th></tr></thead>
+      <tbody>
+        <tr><td>AppLovin MAX</td><td>Mediation, RTB bidding, waterfall</td><td>13.x</td><td>Device fingerprint, ad events, ATT/IDFA (with consent)</td></tr>
+        <tr><td>Google Mobile Ads SDK (AdMob)</td><td>RTB bidding, ad serving</td><td>12.x</td><td>Device fingerprint, ad events, GAID (with consent)</td></tr>
+        <tr><td>Unity LevelPlay (ironSource)</td><td>Mediation, waterfall</td><td>8.x</td><td>Device fingerprint, ad events</td></tr>
+        <tr><td>Meta Audience Network</td><td>Audience match, ad serving</td><td>6.x</td><td>Device fingerprint, hashed email (if provided)</td></tr>
+        <tr><td>Pangle (ByteDance)</td><td>China + global fill</td><td>5.x</td><td>OAID (CN), device fingerprint</td></tr>
+        <tr><td>InMobi</td><td>RTB bidding</td><td>10.x</td><td>Device fingerprint, ad events</td></tr>
+        <tr><td>Chartboost</td><td>Mediation (legacy)</td><td>9.x</td><td>Device fingerprint, ad events</td></tr>
+        <tr><td>Vungle (Liftoff)</td><td>Video ads</td><td>7.x</td><td>Device fingerprint, ad events</td></tr>
+        <tr><td>ironSource (Unity)</td><td>Mediation</td><td>8.x</td><td>Device fingerprint, ad events</td></tr>
+        <tr><td>Tapjoy</td><td>Offerwall</td><td>13.x</td><td>Device fingerprint, offer completion events</td></tr>
+        <tr><td>Mintegral (Mobvista)</td><td>RTB bidding, video ads</td><td>16.x</td><td>Device fingerprint, ad events</td></tr>
+        <tr><td>Fyber (Digital Turbine)</td><td>Mediation, offerwall</td><td>9.x</td><td>Device fingerprint, ad events</td></tr>
+      </tbody>
+    </table>
+
+    <h3>6.2 Attribution / MMP SDKs</h3>
+    <table class="policy-table">
+      <thead><tr><th>SDK</th><th>Purpose</th><th>Latest Supported Version</th></tr></thead>
+      <tbody>
+        <tr><td>AppsFlyer</td><td>Install attribution, SKAdNetwork 5 postback</td><td>6.x</td></tr>
+        <tr><td>Adjust</td><td>Install attribution</td><td>5.x</td></tr>
+        <tr><td>Singular</td><td>Install attribution, deferred deep links</td><td>12.x</td></tr>
+        <tr><td>Kochava</td><td>Install attribution (optional)</td><td>4.x</td></tr>
+        <tr><td>Branch</td><td>Deferred deep links, attribution (optional)</td><td>5.x</td></tr>
+      </tbody>
+    </table>
+
+    <h3>6.3 Payment SDKs</h3>
+    <table class="policy-table">
+      <thead><tr><th>SDK</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Apple StoreKit 2</td><td>IAP on iOS / iPadOS</td></tr>
+        <tr><td>Google Play Billing 7.x</td><td>IAP on Android</td></tr>
+        <tr><td>RevenueCat</td><td>Cross-platform subscription management</td></tr>
+      </tbody>
+    </table>
+
+    <h3>6.4 Consent / CMP SDKs</h3>
+    <table class="policy-table">
+      <thead><tr><th>SDK</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Usercentrics</td><td>CMP, GDPR / DSA consent</td></tr>
+        <tr><td>OneTrust</td><td>CMP, consent records</td></tr>
+        <tr><td>IAB Europe TCF v2.2</td><td>TC String generation</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="policy-section" id="risk">
+    <h2>7. Risk Control &amp; Periodic Review</h2>
+
+    <h3>7.1 Risk Control Measures</h3>
+    <ul>
+      <li><strong>Pre-release compliance review:</strong> every build, before submission, is reviewed by primecodevaultlink's compliance lead against this Guide, the App Store Review Guidelines, the Google Play Developer Policy, the DSA, and any region-specific regulations applicable to the App's target markets.</li>
+      <li><strong>Compliance training:</strong> engineering, design, ops, and support staff receive a quarterly compliance briefing covering changes in regional law, App Store / Google Play policy updates, and any new SDK restrictions.</li>
+      <li><strong>Partner audit:</strong> each third-party SDK and ad platform is reviewed quarterly. Any partner found in violation is replaced.</li>
+      <li><strong>User-request handling:</strong> data-subject, refund, and ad-complaint requests are tracked in a dedicated ticketing queue with strict SLAs and full audit trail.</li>
+      <li><strong>Security testing:</strong> encrypted storage, encrypted transit, biometric gate, role-based access, third-party penetration test annually, internal pen-test quarterly.</li>
+    </ul>
+
+    <h3>7.2 Periodic Review Schedule</h3>
+    <p>Because the global legal environment — especially U.S. state privacy laws, the EU DSA implementing acts, the EU AI Act delegated acts, the India DPDP Rules, the China PIPL implementing rules, and the Saudi NDPA regulations — is in constant flux, and because Apple and Google update their platform policies at least twice a year, we conduct a formal review of this Guide <strong>every 6 months</strong>. The next scheduled review is Q4 2026.</p>
+
+    <h3>7.3 Out-of-Cycle Triggers</h3>
+    <p>An out-of-cycle review is triggered by any of the following events:</p>
+    <ul>
+      <li>A material change in the Apple App Store Review Guidelines or Google Play Developer Policy.</li>
+      <li>A new regional privacy or data-localisation law taking effect.</li>
+      <li>A regulator's enforcement action against any primecodevaultlink App.</li>
+      <li>A change to the data-handling behaviour of any integrated third-party SDK or ad platform.</li>
+      <li>A material change in the threat landscape (e.g. a new class of IAA fraud or IAP chargeback fraud).</li>
+    </ul>
+  </section>
+
+  <section class="policy-section" id="contact-tc">
+    <h2>8. Contact</h2>
+    <p>For any question related to this Guide, please contact:</p>
+    <ul>
+      <li><strong>Compliance Lead</strong> — <a href="mailto:compliance@primecodevaultlink.com">compliance@primecodevaultlink.com</a></li>
+      <li><strong>Data Protection Officer</strong> — <a href="mailto:privacy@primecodevaultlink.com">privacy@primecodevaultlink.com</a></li>
+      <li><strong>Security Disclosure</strong> — <a href="mailto:security@primecodevaultlink.com">security@primecodevaultlink.com</a></li>
+      <li><strong>Postal address</strong> — St John's Innovation Centre, Cambridge, United Kingdom</li>
+    </ul>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <svg viewBox="0 0 64 64" fill="none">
+            <defs><linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient></defs>
+            <circle cx="32" cy="32" r="28" stroke="url(#lg2)" stroke-width="2.5" opacity="0.3"/>
+            <path d="M32 8L52 20L52 44L32 56L12 44L12 20L32 8Z" stroke="url(#lg2)" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M24 22H34C38 22 41 25 41 29C41 33 38 36 34 36H30V42H24V22ZM30 27V31H34C35.5 31 36 30 36 29C36 28 35.5 27 34 27H30Z" fill="url(#lg2)"/>
+          </svg>
+          <span>primecodevaultlink</span>
+        </a>
+        <p>Engineering calm technology. A research-driven studio crafting minimalist, privacy-first applications for everyday life.</p>
+        <div class="footer-social">
+          <a href="contact.html" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+          <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h5>Studio</h5>
+        <ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="advantages.html">Advantages</a></li><li><a href="updates.html">Updates</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </div>
+      <div class="footer-column">
+        <h5>Resources</h5>
+        <ul><li><a href="services.html#apps">App Portfolio</a></li><li><a href="services.html#monetization">Monetisation</a></li><li><a href="services.html#ad-types">Ad Formats</a></li><li><a href="advantages.html#tech">Technology</a></li></ul>
+      </div>
+      <div class="footer-column">
+        <h5>Legal</h5>
+        <ul><li><a href="privacy-policy.html">Privacy Policy</a></li><li><a href="terms-of-service.html">Terms of Service</a></li><li><a href="technical-compliance.html">Technical Compliance</a></li><li><a href="contact.html#contact">Data Requests</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">© 2026 primecodevaultlink. All rights reserved. St John's Innovation Centre, United Kingdom.</p>
+      <div class="footer-legal"><a href="privacy-policy.html">Privacy</a><a href="terms-of-service.html">Terms</a><a href="technical-compliance.html">Compliance</a><a href="contact.html">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# Test screenshots
+screenshot-*.png
+
+# Temp scripts
+create-files.ps1
+create-svg.bat
+generate-png.ps1
+test-png.ps1
+fix-hero.ps1
+test-svg.ps1
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Node / build artifacts (future-proof)
+node_modules/
+dist/
+.env
+.env.local
+*.log

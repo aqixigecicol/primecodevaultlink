@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+
+# Sitemap
+Sitemap: https://primecodevaultlink.com/sitemap.xml
+
+# Crawl-delay (informational)
+Crawl-delay: 1

@@ -1,0 +1,18 @@
+# primecodevaultlink — app-ads.txt
+# Authorized Sellers for Apps (IAB Tech Lab)
+# This file is consulted by AppLovin MAX, Google AdMob, Unity LevelPlay and other
+# supported SSPs to verify that the seller of an ad impression is authorised.
+#
+# Each record is one line:
+#   <domain>, <publisher ID>, <relationship>, <certification authority ID>
+#
+# Relationship values: DIRECT (we control the account) or RESELLER (authorised third party).
+#
+# This file is intentionally empty for the website itself.
+# For each published mobile app, a corresponding app-ads.txt entry is published at
+# the developer-website root configured in the App Store / Google Play listing.
+
+# Example template (replace with the real values when the app is published):
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# applovin.com, XXXXXXXXXXXXXXXX, DIRECT
+# unity.com, XXXXXXXXXXXXXXXX, RESELLER
